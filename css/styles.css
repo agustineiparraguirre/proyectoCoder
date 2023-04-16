@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@300;500;700;800 & display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{font-family: 'Rubik', sans-serif;
+color: white;}
+
+.header {
+    background-image: url(../assets/img/soldador.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+
+.cajaLogo   {width: 45%;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.logo { 
+    width: 15%;
+  
+}
+
+.navegacion {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.itemNav {
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+.linkNav {
+    text-decoration: none;  
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contenedorTituloPrin    {
+    width: 50%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+
+}
+
+.contenedorTituloPrin h1 { 
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+
+.contenedorTituloPrin h2 {
+    font-size: 2rem;
+    padding-top: 50px
+} 
+
+.main   {
+    background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
+
+}
+
+
+.marginHr {
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.contenedorCards  {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+ 
+  }
+
+.card {
+    width: 40%;
+    display:inline-block;
+    box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+    background-color: rgb(73, 67, 67);
+    padding:10px
+   
+}
+
+.card img{
+    height: 40vh;
+    width: 90%;
+   
+}
+
+.cajaClientes {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-decoration: none;
+    color: white;
+}
+
+.clientes {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+
+.footer { 
+    background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
+    height: 40vh;
+    background-color: pink;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.contenedorRedes {
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px;
+  
+}
+
+.contenedorMapa {
+    width: 30%;
+    display: inline-block;
+    background-color: green;
+}
+
+
+.icono {
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+}
