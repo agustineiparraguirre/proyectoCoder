@@ -5,10 +5,12 @@
     box-sizing: border-box;}
 
 body{font-family: 'Rubik', sans-serif;
-color: white;}
+color: white;
+}
+
 
 .header {
-    background-image: url(../assets/img/soldador.jpg);
+    background-image: url(../assets/img/soldador.jpg) !important;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -22,15 +24,32 @@ color: white;}
     padding-top: 40px;
 }
 
+
 .logo { 
-    width: 15%;
-  
+    width: 30%;
 }
 
-.navegacion {
-    width: 50%;
-    display: inline-block;
-    text-align: right;
+.navegador {
+    align-items: flex-end;
+}
+
+.navbar-dark .navbar-nav .navActive {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .colorNav {
+    color: rgb(238, 231, 231);
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .colorActive {
+    color: rgb(238, 231, 231);
+    font-size: 2.5rem;
+}
+
+
+.navbar-dark .navbar-nav .tamanioNav {
+    font-size: 5rem;
 }
 
 .itemNav {
@@ -43,7 +62,7 @@ color: white;}
 .linkNav {
     text-decoration: none;  
     color: white;
-    font-size: 1.5rem;
+    
 }
 
 .contenedorTituloPrin    {
