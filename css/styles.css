@@ -11,7 +11,7 @@ color: white;
 
 .header {
     background-image: url(../assets/img/soldador.jpg) !important;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,23 +19,10 @@ color: white;
     
     }
 
-.cajaLogo   {width: 45%;
-    display: inline-block;
-    padding-top: 40px;
-}
-
-
 .logo { 
     width: 30%;
 }
 
-.navegador {
-    align-items: flex-end;
-}
-
-.navbar-dark .navbar-nav .navActive {
-    font-size: 1.5rem;
-}
 
 .navbar-dark .navbar-nav .colorNav {
     color: rgb(238, 231, 231);
@@ -44,25 +31,7 @@ color: white;
 
 .navbar-dark .navbar-nav .colorActive {
     color: rgb(238, 231, 231);
-    font-size: 2.5rem;
-}
-
-
-.navbar-dark .navbar-nav .tamanioNav {
-    font-size: 5rem;
-}
-
-.itemNav {
-    list-style: none;
-    display: inline-block;
-    padding-left: 30px;
-    padding-top: 0;
-}
-
-.linkNav {
-    text-decoration: none;  
-    color: white;
-    
+    font-size: 2rem;
 }
 
 .contenedorTituloPrin    {
@@ -104,7 +73,7 @@ color: white;
  
   }
 
-.card {
+.card1 {
     width: 40%;
     display:inline-block;
     box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
@@ -115,10 +84,25 @@ color: white;
    
 }
 
-.card img{
+.card1 img{
     height: 40vh;
     width: 90%;
-   
+}
+
+.cardFondo {
+    background-color: rgb(73, 67, 67);
+    text-align: center;
+    box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
+}
+
+.contenedor {
+    width: 30%;
+}
+
+.contenedor img {
+    width: 100% !important ;
 }
 
 .cajaClientes {
@@ -149,6 +133,7 @@ color: white;
 .footer p{
     font-size: 1.5rem;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .contenedorRedes {
