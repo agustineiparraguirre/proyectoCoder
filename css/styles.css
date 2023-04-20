@@ -120,39 +120,93 @@ color: white;
     
 }
 
+.contenedorPolitica {
+    width: 50%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    padding: 100px;
+
+}
+
+.contenedorPolitica h1 { 
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.fondo {
+    background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
+}
+
+.politica  {
+    font-size: 2rem;
+    height: 40vh;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 0 8rem 0 8rem;
+}
+
 
 
 .footer { 
     background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
-    height: 40vh;
+    height: 48vh;
     background-color: pink;
-    text-align: center;
     padding: 5px;
+    width: 100vw;
+    text-align: center;
 }
 
 .footer p{
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 0;
+    text-align: center;
 }
 
-.contenedorRedes {
-    width: 30%;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 15px;
-  
+.titulo {
+    color: rgb(167, 139, 139);
+    font-size: 2rem;
 }
 
-.contenedorMapa {
-    width: 30%;
-    display: inline-block;
-    background-color: green;
+.redes   {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+
 }
 
+.redes li{
+    margin: 0 10px;
 
-.icono {
+}
+
+.redes a{
+    text-decoration: none;
     color: white;
-    font-size: 3rem;
-    padding: 10px;
+
 }
+.redes a i{
+    font-size: 3rem;
+    transition: color .4s ease;
+    padding: 5px;
+}
+
+.redes a:hover i{
+    color: rgb(167, 139, 139);
+
+}
+
+
+.derechos {
+    color: rgb(167, 139, 139);
+    background-color: #252425;
+    word-spacing: 5px;
+    text-transform: capitalize;
+
+}
+
