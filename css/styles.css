@@ -16,11 +16,13 @@ color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
     
     }
 
 .logo { 
     width: 30%;
+
 }
 
 
@@ -35,18 +37,19 @@ color: white;
 }
 
 .contenedorTituloPrin    {
-    width: 50%;
-    height: 30vh;
-    margin: 0 auto;
-    margin-top: 200px;
-    text-align: center;
+    width: auto;
+    height: auto;
+    margin:auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
     backdrop-filter: blur(12px);
-
 }
 
-.contenedorTituloPrin h1 { 
-    font-size: 3rem;
-    padding-top: 10px;
+
+.tituloPrin {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 179, 179);
 }
 
 
@@ -55,22 +58,18 @@ color: white;
     padding-top: 50px
 } 
 
+
+
 .main   {
     background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
 
 }
 
-
-.marginHr {
-    padding-top: 5px;
-    margin-bottom: 0px;
-}
-
 .contenedorCards  {
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
- 
+    border-top:grey;
   }
 
 .card1 {
@@ -80,48 +79,103 @@ color: white;
     -webkit-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
     background-color: rgb(73, 67, 67);
-    padding:10px
+    padding: 10px;
+    margin-top: 0px;
    
 }
+
 
 .card1 img{
     height: 40vh;
     width: 90%;
 }
 
-.cardFondo {
-    background-color: rgb(73, 67, 67);
-    text-align: center;
-    box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px -2px 189px 65px rgba(0,0,0,0.75);
-}
-
-.contenedor {
-    width: 30%;
-}
-
-.contenedor img {
-    width: 100% !important ;
-}
 
 .cajaClientes {
-    text-align: center;
     font-size: 1.5rem;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    text-decoration: none;
-    color: white;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
 }
+
 
 .clientes {
     text-decoration: none;
-    list-style: none;
-    
+    list-style: none;   
 }
 
-.contenedorPolitica {
+
+.izquierda {
+    font-size: 3rem;
+    margin-top: 5rem;
+    height: 10vh;
+    text-align: center;
+}
+
+.derecha    {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.izquierda2 {
+    font-size: 3rem;
+    margin-top: 5rem;
+    height: 10vh;
+    text-align: center;
+}
+
+.derecha2   {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+.spanHistoria {
+    font-size: 4rem;
+    color: rgb(167, 139, 139);
+}
+
+.contenedorForm {
+    background-color: #242327;
+    border: 2px solid grey;
+    box-shadow: 7px 13px 37px #2b2c31 ;
+    height: auto;
+}
+
+.contenedorForm h1 {
+    text-align: center;
+
+}
+
+.contenedorForm .boton {
+    color: white;
     width: 50%;
+    padding: 5px;
+    background-color:  #242327;
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.colorForm {
+    color: white;
+    font-size: 1rem;
+    background-color: #242327;
+    font-style: normal;
+}
+
+
+.contenedorPolitica {
+    width: 100%;
     height: 30vh;
     margin: 0 auto;
     margin-top: 150px;
@@ -131,31 +185,30 @@ color: white;
 
 }
 
-.contenedorPolitica h1 { 
-    font-size: 3rem;
-    padding-top: 10px;
-}
 
 .fondo {
     background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
 }
 
-.politica  {
-    font-size: 2rem;
-    height: 40vh;
-    text-align: center;
-    margin-bottom: 0;
-    margin: 0 8rem 0 8rem;
-}
 
+.contPolitica {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.contPolitica2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.contPolitica2 a{
+    text-decoration: none;
+}
 
 
 .footer { 
     background-image: linear-gradient(to right, #070607, #141214, #1c1b1d, #242327, #2b2c31, #2b2c31, #2b2c31, #2b2c31, #242327, #1c1b1d, #141214, #070607);
-    height: 48vh;
     background-color: pink;
-    padding: 5px;
-    width: 100vw;
+    padding: 0;
+    width: 100%;
     text-align: center;
 }
 
@@ -207,6 +260,5 @@ color: white;
     background-color: #252425;
     word-spacing: 5px;
     text-transform: capitalize;
-
 }
 
