@@ -152,6 +152,10 @@ color: white;
     color: rgb(167, 139, 139);
 }
 
+.contacto {
+    font-size: 4px;
+}
+
 .contenedorForm {
     background-color: #242327;
     border: 2px solid grey;
